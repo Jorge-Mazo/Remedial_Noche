@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background: linear-gradient(90deg, #091E3A 0%, #2F80ED 50%, #2D9EE0 100%);
+    /* background: linear-gradient(90deg, #11171d 0%, #3498DB 100%);   */
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    /* background-color: #070f1f; */
+    background-color: #090b0e;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: -40px; */
+}
+.logo{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* border: 2px #1f53c5 solid; */
+    /* align-content: center; */
+
+
+    font-size: 35px;
+    color: white;
+}
+.barra-inicio{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px #1f53c5 solid; */
+    color: white;
+
+}
+
+.barra{
+    font-family: 'calibri';
+
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px #1f53c5 solid; */
+
+
+}
+
+.items{
+    width: 100px;
+    /* border: 2px #1f53c5 solid; */
+    align-items: center;
+    /* justify-content: center; */
+    /* align-content: center; */
+    text-align: center;
+
+    font-size: 15px;
+}
+
+
+/* tamaño de la letra de la barra */
+.barra_inicio{ 
+    font-size: 18px;
+}
+.barra_registrate{
+    font-size: 18px;
+}
+.barra-inicio_de_sesion{
+    font-size: 18px;
+}
+
+
+
+
+.barra_hola{
+    width: 100px;
+    color: white;
+    /* border: 2px #e4e9f3 solid; */
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+.hola{
+    width: 150px;
+    color: white;
+    border: 2px #ccd1db solid;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    /* border: 2px black solid; */
+}
+
+.section_form{
+    /* border: 2px rgb(22, 248, 90) solid; */
+    margin-top: 17px;
+
+}
+
+.form-registros{
+    border: 2px #1f53c5 solid;
+    width: 500px ;
+    height: 500px;
+    /* background: #192129; */
+    background: #08090a;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-registros h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.inputs {
+    width: 100%;
+    /* background: #192129; */
+    background: #08090a;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 17px;
+    color: white;
+    padding: 8px;
+    
+}
+::placeholder{
+    padding: 5px;
+}
+.terminos{
+    margin-top: 10px;
+}
+
+.form-registros p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+  
+
+
+/* etiquetas a */
+a {
+    color: #1fa4f1;
+    text-decoration: none;
+}
+ a:hover{
+    color: #1fa4f1;
+    text-decoration: double;
+}
+
+
+
+
+a {
+    color: #ffffff;
+}
+
+/* a {
+    color: white;
+    text-decoration: none;
+} */
+a {
+    background-color: transparent;
+}
+*, *::before, *::after {
+    transition: all .3s ease-in-out;
+} 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.Registrar{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+/* 
+body{
+    background-color: #24303c;
+
+}
+.contenedor{
+    background-color: #24303c;
+    
+}
+header{
+    background-color: aquamarine;
+    border: 2px black solid;
+}
+
+/* 
+MAIN 
+*/
+/* .main-contenedor{
+    background-color: #c7dbe6;
+    
+    height: 500px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.section_form{
+    background-color: #24303c;
+
+    border: 2px rgb(9, 27, 189) solid;
+    width: 500px ;
+    height: 430px;
+    border: 2px #1f53c5 solid;
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px #000;
+    font-family: 'calibri';
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+
+/* }
+.form-registros{
+    padding: 0px;
+    border: 2px rgb(9, 27, 189) solid;
+    height: 350px;
+    width: 450px;
+}
+
+.form-registros div {
+    border: 2px rgb(9, 27, 189) solid;
+
+
+    font-size: 30px;
+    margin-bottom: 20px;
+
+    height: 60px;
+}
+/* .form-registros{
+    border: 2px black solid;
+
+} */ 
